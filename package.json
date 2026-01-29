@@ -1,5 +1,5 @@
 {
-  "name": "@sb28ai/ask",
+  "name": "@28s/ask",
   "version": "0.1.0",
   "description": "Simple CLI to query LLMs via OpenRouter and Moonshot APIs",
   "type": "module",

@@ -5,13 +5,13 @@ Simple CLI to query LLMs via OpenRouter and Moonshot APIs.
 ## Install
 
 ```bash
-bunx @sb28ai/ask "Hello!"
+bunx @28s/ask "Hello!"
 ```
 
 Or install globally:
 
 ```bash
-bun add -g @sb28ai/ask
+bun add -g @28s/ask
 ```
 
 ## Setup
