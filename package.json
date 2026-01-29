@@ -1,0 +1,44 @@
+{
+  "name": "@anthropics/ask",
+  "version": "0.1.0",
+  "description": "Simple CLI to query LLMs via OpenRouter and Moonshot APIs",
+  "type": "module",
+  "bin": {
+    "ask": "src/index.ts"
+  },
+  "files": [
+    "src",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "bun run src/index.ts",
+    "build": "bun build src/index.ts --compile --outfile=dist/ask",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "cli",
+    "ai",
+    "llm",
+    "openrouter",
+    "moonshot",
+    "kimi",
+    "grok"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anthropics/ask.git"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@ai-sdk/openai-compatible": "^2.0.22",
+    "@openrouter/ai-sdk-provider": "^2.1.1",
+    "ai": "^6.0.59"
+  },
+  "engines": {
+    "bun": ">=1.0.0"
+  }
+}
