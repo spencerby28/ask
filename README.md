@@ -5,13 +5,13 @@ Simple CLI to query LLMs via OpenRouter and Moonshot APIs.
 ## Install
 
 ```bash
-bunx @anthropics/ask "Hello!"
+bunx @sb28ai/ask "Hello!"
 ```
 
 Or install globally:
 
 ```bash
-bun add -g @anthropics/ask
+bun add -g @sb28ai/ask
 ```
 
 ## Setup

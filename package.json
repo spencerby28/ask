@@ -1,5 +1,5 @@
 {
-  "name": "@anthropics/ask",
+  "name": "@sb28ai/ask",
   "version": "0.1.0",
   "description": "Simple CLI to query LLMs via OpenRouter and Moonshot APIs",
   "type": "module",
@@ -27,7 +27,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/anthropics/ask.git"
+    "url": "https://github.com/spencerby28/ask.git"
   },
   "devDependencies": {
     "@types/bun": "latest",
